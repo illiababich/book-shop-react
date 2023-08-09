@@ -1,16 +1,9 @@
 import React from 'react';
-import {BookOpenIcon, PhoneIcon, InformationCircleIcon} from '@heroicons/react/20/solid';
 
 interface FooterProps {
 }
 
 const Footer: React.FC<FooterProps> = () => {
-    const callsToAction = [
-        {name: 'About Us', href: '#', icon: InformationCircleIcon},
-        {name: 'Contact Us', href: '#', icon: PhoneIcon},
-        {name: 'Privacy Policy', href: '#', icon: BookOpenIcon},
-    ];
-
     return (
         <footer className="relative bg-blueGray-200 pt-8 pb-6">
             <div className="container fixed inset-x-0 bottom-0 mx-auto px-4">
