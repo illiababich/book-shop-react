@@ -12,7 +12,7 @@ const BookCard: React.FC<BookCardProps> = ({ name, author, price}) => {
         // <div className="relative min-h-screen flex flex-col items-center justify-center">
         //     <div className="grid mt-8  gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
         //         <div className="flex flex-col">
-                    <div className="bg-white shadow-md rounded-3xl p-4">
+                    <div className="w-1/5 bg-white shadow-md rounded-3xl p-4 m-4">
                         <div className="flex-none lg:flex">
                             <div className=" h-full w-full lg:h-48 lg:w-48   lg:mb-0 mb-3">
                                 <img
