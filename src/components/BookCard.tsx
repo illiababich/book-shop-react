@@ -1,13 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 interface BookCardProps {
+    id: string,
     name: string,
     author: string,
     price: number,
     image: string,
 }
 
-const BookCard: React.FC<BookCardProps> = ({name, author, price}) => {
+const BookCard: React.FC<BookCardProps> = ({id, name, author, price}) => {
     return (
         <div className="w-1/5 bg-white shadow-md rounded-3xl p-4 m-4">
             <div className="flex-none lg:flex">
@@ -33,9 +35,10 @@ const BookCard: React.FC<BookCardProps> = ({name, author, price}) => {
                     <div className="flex p-4 pb-2 border-t border-gray-200 "></div>
                     <div className="flex space-x-3 text-sm font-medium">
                         <div className="flex-auto flex space-x-3">
-                            <button
-                                className="mb-2 md:mb-0 bg-white px-4 py-2 shadow-sm tracking-wider border text-gray-600 rounded-full hover:bg-gray-100 inline-flex items-center space-x-2 ">
-                                <span>View Info</span>
+                            <button>
+                                <Link to={`/book/${id}`} className="mb-2 md:mb-0 bg-white px-4 py-2 shadow-sm tracking-wider border text-gray-600 rounded-full hover:bg-gray-100 inline-flex items-center space-x-2">
+                                    <span>View Info</span>
+                                </Link>
                             </button>
                         </div>
                         <button

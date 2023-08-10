@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feaaad08-f890-48ad-acf5-50f14d603182" name="Changes" comment="adding the BookList.tsx">
+    <list default="true" id="feaaad08-f890-48ad-acf5-50f14d603182" name="Changes" comment="disabling the user selection for Header.tsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BookCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BookDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BookList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/illiababich/Desktop/IdeaProjects/book-shop/fe/book-shop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\Users\\Illia Babich\\Desktop\\book-shop-react\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/illiababich/Desktop/IdeaProjects/book-shop/fe/book-shop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Illia Babich\\Desktop\\book-shop-react\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +63,10 @@
       <updated>1680298973470</updated>
       <workItem from="1680298974817" duration="147000" />
       <workItem from="1691517879819" duration="4772000" />
-      <workItem from="1691563446674" duration="12387000" />
+      <workItem from="1691563446674" duration="13063000" />
+      <workItem from="1691649328751" duration="732000" />
+      <workItem from="1691650075382" duration="2853000" />
+      <workItem from="1691678161250" duration="1152000" />
     </task>
     <task id="LOCAL-00001" summary="starting to change the footer and creating the product card">
       <created>1691575172739</created>
@@ -83,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691585923303</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="disabling the user selection for Header.tsx">
+      <created>1691591372408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691591372408</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +117,7 @@
     <MESSAGE value="starting to change the footer and creating the product card" />
     <MESSAGE value="fixing the card width" />
     <MESSAGE value="adding the BookList.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the BookList.tsx" />
+    <MESSAGE value="disabling the user selection for Header.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="disabling the user selection for Header.tsx" />
   </component>
 </project>
