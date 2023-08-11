@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.idea
+/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-10_22_40_[Changes]/shelved.patch
